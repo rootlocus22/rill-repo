@@ -1,0 +1,60 @@
+# Visit https://docs.rilldata.com/reference/project-files to learn more about Rill project files.
+
+model: annual_enterprise_survey_2021_financial_year_provisional_csv_model
+timeseries: ""
+measures:
+  - label: Total records
+    expression: count(*)
+    name: total_records
+    description: Total number of records present
+    format_preset: humanize
+    valid_percent_of_total: true
+dimensions:
+  - name: Industry_aggregation_NZSIOC
+    label: Industry_aggregation_NZSIOC
+    column: Industry_aggregation_NZSIOC
+    description: ""
+  - name: Industry_code_NZSIOC
+    label: Industry_code_NZSIOC
+    column: Industry_code_NZSIOC
+    description: ""
+  - name: Industry_name_NZSIOC
+    label: Industry_name_NZSIOC
+    column: Industry_name_NZSIOC
+    description: ""
+  - name: Units
+    label: Units
+    column: Units
+    description: ""
+  - name: Variable_code
+    label: Variable_code
+    column: Variable_code
+    description: ""
+  - name: Variable_name
+    label: Variable_name
+    column: Variable_name
+    description: ""
+  - name: Variable_category
+    label: Variable_category
+    column: Variable_category
+    description: ""
+  - name: Value
+    label: Value
+    column: Value
+    description: ""
+  - name: Industry_code_ANZSIC06
+    label: Industry_code_ANZSIC06
+    column: Industry_code_ANZSIC06
+    description: ""
+available_time_zones:
+  - America/Los_Angeles
+  - America/Chicago
+  - America/New_York
+  - Europe/London
+  - Europe/Paris
+  - Asia/Jerusalem
+  - Europe/Moscow
+  - Asia/Kolkata
+  - Asia/Shanghai
+  - Asia/Tokyo
+  - Australia/Sydney
